@@ -16,9 +16,9 @@ public class Comment {
     private String author;
 
     //Getters and Setters
-    public Long GetId() { return id; };
-    public String GetText() { return text; };
-    public void SetText(String text) { this.text = text; };
-    public String GetAuthor() {return author; };
-    public void SetAuthor() { this.author = author; };
+    public Long getId() { return id; };
+    public String getText() { return text; };
+    public void setText(String text) { this.text = text; };
+    public String getAuthor() {return author; };
+    public void setAuthor() { this.author = author; };
 }
