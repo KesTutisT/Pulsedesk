@@ -62,7 +62,6 @@ public class CommentsService {
         String topLabel = (String) result.getFirst().get("label");
         double topScore = (double) result.getFirst().get("score");
         return !(topLabel.equals(NONSENSE) && topScore >= 0.70);
-        //return !(topLabel.equals(NONSENSE)) && topScore >= 0.70;
     }
 
     private boolean isTicket(String text){

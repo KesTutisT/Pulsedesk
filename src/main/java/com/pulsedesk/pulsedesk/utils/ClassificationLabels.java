@@ -10,14 +10,14 @@ public class ClassificationLabels {
     public static final String NONSENSE = "nonsense, gibberish, or unrelated to software";
 
     public static final String PROBLEM = "problem or complaint";
-    public static final String COMPLIMENT = "compliment or praise";
+    public static final String COMPLIMENT = "compliment, praise or comment";
 
-    public static final String CRITICAL = "critical system failure or data loss";
+    public static final String CRITICAL = "critical system failure, data loss or zero-day vulnerability";
     public static final String MINOR = "minor or moderate issue";
     public static final String BROKEN = "something is not working or broken";
-    public static final String COSMETIC = "visual or cosmetic issue like font color or spelling";
+    public static final String COSMETIC = "visual or cosmetic issue like font color, font size or spelling";
 
-    public static final String CAT_BUG = "software or button not working as expected";
+    public static final String CAT_BUG = "software, button or form not working as expected";
     public static final String CAT_BILLING = "payment or invoice issue";
     public static final String CAT_FEATURE = "new feature or improvement request";
     public static final String CAT_ACCOUNT = "problem to my specific account, such as being locked, banned, or losing profile data";
