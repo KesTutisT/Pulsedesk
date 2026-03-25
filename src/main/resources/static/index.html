@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PulseDesk Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>PulseDesk</h1>
+        <div class="header-actions">
+            <button id="refreshBtn" class="btn-outline">Refresh Lists</button>
+        </div>
+    </header>
+
+    <section class="card input-card">
+        <div class="form-row">
+            <input type="text" id="author" placeholder="Your Name">
+            <button id="submitBtn" class="btn-primary">Send Feedback</button>
+        </div>
+        <textarea id="text" rows="5" placeholder="Describe your issue..."></textarea>
+        <div id="statusMessage" class="status hidden"></div>
+    </section>
+
+    <section class="dashboard-section">
+        <div class="section-header">
+            <h2>Tickets</h2>
+            <span class="count-badge" id="ticketCount">0</span>
+        </div>
+        <div id="ticketList" class="scroll-area"></div>
+    </section>
+
+    <section class="dashboard-section">
+        <div class="section-header">
+            <h2>All Comments</h2>
+            <span class="count-badge" id="commentCount">0</span>
+        </div>
+        <div id="commentList" class="scroll-area"></div>
+    </section>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
